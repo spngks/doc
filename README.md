@@ -33,7 +33,7 @@ At Smaato, we do our best to go the extra mile and as such you would receive bon
 API Response Format
 A JSON array representing image or text information along with user name and country. The response is NOT case sensitive.
 Image Object Format
-```json
+```java
      
     {
 "created": -449280, /* number of seconds passed since created */ "type": "IMG",
