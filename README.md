@@ -30,20 +30,24 @@ At Smaato, we do our best to go the extra mile and as such you would receive bon
 * Android Studio project with source code
 * Integration steps if created a Library jar/aapt and if needed.
 
-API Response Format
+##API Response Format
 A JSON array representing image or text information along with user name and country. The response is NOT case sensitive.
-Image Object Format
+
+###Image Object Format
 ```java
      
-    {
+{
 "created": -449280, /* number of seconds passed since created */ "type": "IMG",
 "data": { "url": "https://pixabay.com/xxxx"},
 "user" : {
 "name": "John", "country":"USA" }
 }
+
  ```
- Text Object Format
-    {
+ 
+ ###Text Object Format
+```java
+{
 "created": -280800, /* number of seconds passed since created */ "type": "TEXT",
 "data": {
 "text": "The real danger is not that computers will begin to think like men, but that
@@ -52,9 +56,16 @@ men will begin to think like computers."
 "name": "Sydney Harris", "country":"USA"
 }
 }
- Note
+ ```
+ 
+ 
+###Note
 Please note that the JSON array might have invalid or incomplete object e.g.
-   {
+```java
+
+{
 "created": 0
 }
+
+ ```
  
