@@ -12,7 +12,8 @@ Once loaded, library project should at least randomly select one object from the
 * view generation
 
 ###The Android App,
-integrate the library project display the content
+* integrate the library project 
+* display the content
 
 ##Constraints
 * No 3rd party library can be used.
