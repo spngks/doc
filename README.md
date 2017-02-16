@@ -44,9 +44,9 @@ A JSON array representing image or text information along with user name and cou
 }
 
  ```
- 
- ###Text Object Format
+###Text Object Format
 ```java
+
 {
 "created": -280800, /* number of seconds passed since created */ "type": "TEXT",
 "data": {
@@ -56,6 +56,7 @@ men will begin to think like computers."
 "name": "Sydney Harris", "country":"USA"
 }
 }
+
  ```
  
  
