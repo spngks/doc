@@ -3,7 +3,7 @@
 `challenge status: open`
 
 ## What You'll need to build
-Write an Android application with a library project (SDK) using Java. Only the library project should make an HTTP GET request to http://private- d847e-demoresponse.apiary-mock.com/questions 
+Write an Android application with a library project (SDK) using Java. Only the library project should make an HTTP GET request to http://private-d847e-demoresponse.apiary-mock.com/questions 
 
 Once loaded, the library project should at least randomly select one object from the response and generate a View/ViewGroup with text or image. Ad d features as you like, use your imagination, but coding standard and overall architecture will have the highest value.
 
