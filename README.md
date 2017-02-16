@@ -1,6 +1,5 @@
 # Android-Code-Challenge
 
-`version 1.6`
 `challenge status: open`
 
 ## What You'll need to build
